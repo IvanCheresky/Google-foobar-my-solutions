@@ -1,8 +1,7 @@
 from itertools import combinations
 
-def exps():
-    num_buns = 5
-    num_required = 3
+def exps(num_buns, num_required):
+
     copies_per_key = num_buns - num_required + 1
 
     sol = [[] for x in range(num_buns)]

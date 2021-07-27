@@ -1,6 +1,9 @@
 from copy import deepcopy
 
 
+# THE ACTUAL SOLUTION IS IN PART 41c
+
+
 def solution10(times, times_limit):
 
     # modified bellman ford, modifies times to express the shortest paths to each vertex

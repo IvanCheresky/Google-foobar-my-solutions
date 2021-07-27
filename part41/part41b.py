@@ -1,5 +1,9 @@
 from copy import deepcopy
 
+
+# THE ACTUAL SOLUTION IS IN PART 41c
+
+
 def solution11(times, times_limit):
     if infinite_loop(deepcopy(times)):
         return [x for x in range(len(times) - 2)]
